@@ -10,30 +10,29 @@ How to use it
 
 Add the package declaration:
 
-'''js
+```js
 "holder" : {
   "git": "https://github.com/Dsyko/meteor-holder.git"
 }
-'''
+```
 
 To the packages object in the smart.json of your meteor app.
 
-
-'''js
+```js
 "packages": {
 	"holder" : {
 		  "git": "https://github.com/Dsyko/meteor-holder.git"
 	}
 }
-'''
+```
 
 Add to meteor using meteorite add command:
 
-'''js
+```js
 mrt add holder
-'''
+```
 
-Include ``holder.js`` in your HTML:
+Includeing the package should automatically include ``holder.js`` in your HTML:
 
 ```html
 <script src="holder.js"></script>
@@ -46,6 +45,12 @@ Holder will then process all images with a specific ``src`` attribute, like this
 ```
 
 The above tag will render as a placeholder 200 pixels wide and 300 pixels tall.
+
+If Holder isn't processing the taks try calling Holder.run() in meteor's template.rendered callback:
+
+```js
+Holder.run()
+```
 
 To avoid console 404 errors, you can use ``data-src`` instead of ``src``.
 
