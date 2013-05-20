@@ -7,7 +7,7 @@ Provided under the Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.
 Commercial use requires attribution.
 
 */
-
+console.log("Loading Holder!");
 var Holder = Holder || {};
 (function (app, win) {
 
