@@ -7,7 +7,7 @@ Provided under the Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.
 Commercial use requires attribution.
 
 */
-window.Holder = Holder || {};
+window.Holder = window.Holder || {};
 (function (app, win) {
 
 var preempted = false,
