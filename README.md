@@ -1,4 +1,4 @@
-Holder
+Holder in a Meteor package
 ======
 
 Holder uses the `canvas` element and the data URI scheme to render image placeholders entirely in browser.
@@ -7,6 +7,31 @@ Holder uses the `canvas` element and the data URI scheme to render image placeho
 
 How to use it
 -------------
+
+Add the package declaration:
+
+'''js
+"holder" : {
+  "git": "https://github.com/Dsyko/meteor-holder.git"
+}
+'''
+
+To the packages object in the smart.json of your meteor app.
+
+
+'''js
+"packages": {
+	"holder" : {
+		  "git": "https://github.com/Dsyko/meteor-holder.git"
+	}
+}
+'''
+
+Add to meteor using meteorite add command:
+
+'''js
+mrt add holder
+'''
 
 Include ``holder.js`` in your HTML:
 
