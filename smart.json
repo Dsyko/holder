@@ -1,0 +1,10 @@
+{
+	"name": "holder",
+	"description": "holder.js packaged for meteor",
+	"homepage": "https://github.com/Dsyko/meteor-holder",
+	"author": "David Sykora",
+	"version": "0.1.0",
+	"git": "https://github.com/Dsyko/meteor-holder",
+	"packages": {
+	}
+}
