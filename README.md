@@ -32,7 +32,7 @@ Add to meteor using meteorite add command:
 mrt add holder
 ```
 
-Includeing the package should automatically include ``holder.js`` in your HTML:
+Including the package should automatically include ``holder.js`` in your HTML:
 
 ```html
 <script src="holder.js"></script>
@@ -46,7 +46,7 @@ Holder will then process all images with a specific ``src`` attribute, like this
 
 The above tag will render as a placeholder 200 pixels wide and 300 pixels tall.
 
-If Holder isn't processing the taks try calling Holder.run() in meteor's template.rendered callback:
+If Holder isn't processing the imgs try calling Holder.run() in meteor's template.rendered callback:
 
 ```js
 Holder.run()
