@@ -4,7 +4,7 @@
 	"homepage": "http://github.com/Dsyko/meteor-holder",
 	"author": "David Sykora",
 	"version": "0.1.9",
-	"git": "https://github.com/Dsyko/meteor-holder",
+	"git": "https://github.com/Dsyko/meteor-holder.git",
 	"packages": {
 	}
 }
