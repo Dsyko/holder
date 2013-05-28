@@ -3,7 +3,7 @@
 	"description": "holder.js packaged for meteor",
 	"homepage": "https://github.com/Dsyko/meteor-holder",
 	"author": "David Sykora",
-	"version": "0.1.1",
+	"version": "0.1.9",
 	"git": "https://github.com/Dsyko/meteor-holder",
 	"packages": {
 	}
