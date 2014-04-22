@@ -7,7 +7,7 @@ Provided under the MIT License.
 Commercial use requires attribution.
 
 */
-var window.Holder = window.Holder || {};
+window.Holder = window.Holder || {};
 (function (app, win) {
 var system_config = {
 	use_svg: false,
